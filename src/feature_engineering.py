@@ -24,7 +24,7 @@ def get_top_tfidf_terms(tfidf_matrix, vectorizer, group_labels, top_n=15):
     feature_names = vectorizer.get_feature_names_out()
     results = []
     for label in sorted(group_labels.unique()):
-        mask = group_labels == label
+        mask = (group_labels == label).values
         group_mean = tfidf_matrix[mask].mean(axis=0).A1
         top_indices = group_mean.argsort()[-top_n:][::-1]
         for idx in top_indices:
