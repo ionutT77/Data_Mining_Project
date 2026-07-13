@@ -1,4 +1,4 @@
-# 📊 Data Mining Project 2025 — Trustpilot Reviews Analysis
+#  Data Mining Project 2025 — Trustpilot Reviews Analysis
 
 ## Overview
 A comprehensive data mining analysis of **123,000+ Trustpilot reviews** across **22 business categories** and **1,680 companies**. This project demonstrates 16 out of 17 topics from the Data Mining course specification.
